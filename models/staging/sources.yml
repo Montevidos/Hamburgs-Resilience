@@ -23,4 +23,10 @@ sources:
         identifier: air_quality_hamburg_2015_2025
       - name: population_data
         identifier: population_data
+      - name: monthly_consumed_energie_GWh
+        identifier: monthly_consumed_energie_GWh
+      - name: monthly_fossil_feed_in_GWh
+      - name: monthly_generated_energie_GWh
+      - name: monthly_renewable_feed_in_GWh
+      - name: monthly_total_feed_in_GWh
 

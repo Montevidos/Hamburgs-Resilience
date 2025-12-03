@@ -3,17 +3,6 @@ version: 2
 models:
   - name: prep_energy
     description: "Combined view of Hamburg's energy production, consumption and feed-in data"
-    columns:
-      - name: year
-        description: "Year of observation"
-      - name: consumed_energie_GWh
-        description: "Total consumed energy in gigawatt-hours"
-      - name: generated_energie_GWh
-        description: "Total generated energy in gigawatt-hours"
-      - name: total_feed_in_GWh
-        description: "Total feed-in to the power grid in gigawatt-hours"
-      - name: renewable_feed_in_GWh
-        description: "Renewable energy feed-in to the grid"
   - name: prep_green
     description: "Combined green-space data for each district"
     columns:
