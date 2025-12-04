@@ -17,3 +17,4 @@ models:
   - name: prep_air_quality_bezirk
   - name: prep_population_data
   - name: prep_crime
+  - name: prep_crime_new
