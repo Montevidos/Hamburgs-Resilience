@@ -3,3 +3,6 @@ version: 2
 models:
   - name: mart_green_population
     description: "Combined view of Hamburg's energy production, consumption and feed-in data"
+  - name: mart_crime_population
+  - name: mart_energy
+
