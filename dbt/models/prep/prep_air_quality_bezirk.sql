@@ -2,7 +2,8 @@ with extracted_date as (
     select *,
         extract('hour' from timestamp)  as hour,
         extract('month' from timestamp) as month,
-        extract('year' from timestamp)  as year
+        extract('year' from timestamp)  as year,
+        to_char(timestamp, 'FMDay')    as weekday_name
     from {{ ref('stg_air_quality_bezirk') }}
 )
 
