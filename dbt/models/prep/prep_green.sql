@@ -28,9 +28,9 @@ cemetry as (
 select
     coalesce(p.bezirk, a.bezirk, c.bezirk) as bezirk,
     coalesce(p.stadtteil, a.stadtteil, c.stadtteil) as stadtteil,
-    c.cemetry_area,
-    a.allotment_area,
-    p.public_garden_area
+    coalesce(c.cemetry_area, 0)        as cemetry_area,
+    coalesce(a.allotment_area, 0)      as allotment_area,
+    coalesce(p.public_garden_area, 0)  as public_garden_area
 from public_gardens p
 full join allotment a using (bezirk, stadtteil)
 full join cemetry c using (bezirk, stadtteil)
