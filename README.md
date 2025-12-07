@@ -72,12 +72,19 @@ https://de.wikipedia.org/wiki/Liste_der_Bezirke_und_Stadtteile_Hamburgs
 ## Project Structure
 
 /dbt
-  /models
-    /staging      → cleaned raw data
-    /prep         → normalized keys & integrated datasets
-    /mart         → analytical tables for dashboard
+
+-/models
+  
+--/staging      → cleaned raw data
+	
+--/prep         → normalized keys & integrated datasets
+	
+--/mart         → analytical tables for dashboard
+	
 /scripts          → data extraction & API calls
+
 /data             → downloaded datasets
+
 
 
 
