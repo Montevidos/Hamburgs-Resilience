@@ -99,6 +99,6 @@ https://de.wikipedia.org/wiki/Liste_der_Bezirke_und_Stadtteile_Hamburgs
 
 ## Author
 
-Ayescha Batool 
+Ayesha Batool 
 
 Kiien Kyonh Do 
